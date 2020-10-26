@@ -107,7 +107,51 @@ window to see that the `body` node is, temporarily, child-less.
 First, let's add a title to our page:
 
 ```html
-<h1>My HTML adventure</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Introduction to the DOM Lab</title>
+</head>
+<body>
+  </html>
+    <h1>My HTML adventure</h1>
+    <p>
+  We're writing HTML markup to display in our <strong>browser</strong>.
+  We're basically telling computers what to do. <em>Neat!</em>
+  We're writing <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> markup to display in our <strong>browser</strong>.
+</p>
+<table>
+  <thead>
+    <tr>
+      <th>Element name</th>
+      <th>Display value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>h1</td>
+      <td>block</td>
+    </tr>
+    <tr>
+      <td>p</td>
+      <td>block</td>
+    </tr>
+    <tr>
+      <td>strong</td>
+      <td>inline</td>
+    </tr>
+    <tr>
+      <td>em</td>
+      <td>inline</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+
 ```
 
 Refresh the page and view the Elements tab again. You should see that a new child-node has appeared underneath `body`. You can use the
@@ -121,6 +165,7 @@ bits of text to the paragraph to make it stand out a little.
 <p>
   We're writing HTML markup to display in our <strong>browser</strong>.
   We're basically telling computers what to do. <em>Neat!</em>
+  We're writing <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> markup to display in our <strong>browser</strong>.
 </p>
 ```
 
